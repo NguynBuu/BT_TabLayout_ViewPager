@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/white_104">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="?attr/selectableItemBackground">
+
+        <ImageView
+            android:id="@+id/flowerImage_104"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Hình ảnh hoa"
+            android:src="@drawable/placeholder_flower"/> <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="16dp"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/flowerName_104"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên Hoa"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black_104"/>
+
+        <TextView
+            android:id="@+id/flowerPrice_104"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giá Bán"
+            android:textSize="16sp"
+            android:textColor="@color/black_104"/>
+    </LinearLayout>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_add_to_cart_104"
+            android:contentDescription="Thêm vào giỏ"
+            app:tint="@color/pink_main_104"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

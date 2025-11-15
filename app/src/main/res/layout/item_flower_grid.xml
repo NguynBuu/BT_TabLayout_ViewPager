@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/white_104">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/flowerImage_104"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Hình ảnh hoa"
+            android:src="@drawable/placeholder_flower"/> <TextView
+        android:id="@+id/flowerName_104"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên Hoa"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/black_104"/>
+
+        <TextView
+            android:id="@+id/flowerPrice_104"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Giá Bán"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:textColor="@color/black_104"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
